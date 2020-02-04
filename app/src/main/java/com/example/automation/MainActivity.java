@@ -69,10 +69,10 @@ class TestSurfaceView extends SurfaceView implements SurfaceHolder.Callback{
                 if (canvas != null) {
                     canvas.drawColor(Color.WHITE);
                     paint.setColor(Color.RED);
-                    int rule = 161;
+                    int rule = 126;
                     int[] cod = new int[8];
-                    int a = 720;
-                    int b = 1020;
+                    int a = 500;
+                    int b = 1000;
                     for (int z = 0; z < 8; z++) {
                         cod[z] = rule % 2;
                         rule = rule / 2;
